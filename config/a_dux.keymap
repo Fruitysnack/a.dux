@@ -51,8 +51,8 @@
  	// Main modifiers and arrow keys
        		ext_layer {
 		bindings = <
-		&kp DE_ASTR  	&kp DE_PLUS    &kp DE_1    &kp DE_2    &kp DE_3			&kp DE_AT &kp UP &kp DE_EURO &kp DE_SS &kp LBRC 
-		&kp DE_SLSH    &kp MINUS    &kp DE_4      &kp DE_5     &kp DE_6 		&kp LEFT &kp DOWN  &kp RIGHT &kp DE_ODIA  &kp DE_ADIA 
+		&kp DE_ASTR  	&kp RBRC    &kp DE_1    &kp DE_2    &kp DE_3			&kp DE_AT &kp UP &kp DE_EURO &kp DE_SS &kp SQT 
+		&kp DE_SLSH    &kp FSLH    &kp DE_4      &kp DE_5     &kp DE_6 		&kp LEFT &kp DOWN  &kp RIGHT &kp DE_ODIA  &kp DE_ADIA 
 		&kp DE_EQL    &kp DE_0 		&kp DE_7  &kp DE_8  &kp DE_9 			&kp DE_LPRN &kp DE_RPRN &kp DE_QUES &kp DE_EXLM  &kp BSPC 
 					    &trans  &kp LSHIFT  					&kp RET &kp DEL 
 		>;
@@ -62,9 +62,9 @@
 		sym_layer {
 		bindings = <
 		&kp RA(N8)  &kp RA(N9) &kp DE_QUOT  &kp DE_DQUO  &kp DE_SECT    			&kp ESC  &kp TAB &kp DE_CIRC &kp EQUAL &kp LS(EQUAL)
-		&kp DE_LBRC  &kp DE_RBRC  &kp DE_DLR  &kp DE_PERC  &kp DE_AMPR 				&kp LALT &kp LWIN  &kp LSHFT  &kp LCTRL   &kp RALT
-		&kp DE_LABK  &kp DE_RABK  &kp DE_SLSH  &kp DE_DEG   &kp DE_UNDS    			&kp DE_TILD  &kp DE_BSLS  &kp DE_PIPE  &kp DE_HASH   &kp DEL
-					  &kp K_CALC &kp LG(L)  							&trans  &trans 
+		&kp RA(N7)  &kp RA(N0)  &kp DE_DLR  &kp DE_PERC  &kp DE_AMPR 				&kp LALT &kp LWIN  &kp LSHFT  &kp LCTRL   &kp RALT
+		&kp DE_LABK  &kp DE_RABK  &kp DE_SLSH  &kp DE_DEG   &kp LS(FSLH)    			&kp RA(RBRC)  &kp RA(DE_SS)  &kp DE_PIPE  &kp DE_HASH   &kp DEL
+					  &none &kp LG(L)  							&trans  &trans 
 		>;
 		};	
 		
@@ -73,7 +73,7 @@
 		bindings = <
 		&kp F1  &kp F2    &kp F3    &kp F4    &kp F5 			&kp F6	 &kp F7   &kp F8   &kp F9  &kp F10
 		&kp F11 &kp F12 &none &none &none  						&bt BT_SEL 0 &bt BT_SEL 1  &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 
-		&bootloader  &none &kp K_MUTE2 &kp K_VOL_DN2 &kp K_VOL_UP2   				&bt BT_SEL 5 &bt BT_CLR  &none  &none &bootloader   
+		&bootloader  &none &kp C_MUTE &kp C_VOL_DN &kp C_VOL_UP   				&bt BT_SEL 5 &bt BT_CLR  &none  &none &bootloader   
 				 &trans &trans  					&none &none 
 		>;
 		};	
