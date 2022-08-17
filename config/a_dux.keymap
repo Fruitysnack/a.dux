@@ -51,7 +51,7 @@
  	// Main modifiers and arrow keys
        		ext_layer {
 		bindings = <
-		&kp DE_ASTR  	&kp RBKT    &kp DE_1    &kp DE_2    &kp DE_3			&kp DE_AT &kp UP &kp DE_EURO &kp DE_SS &kp DQT 
+		&kp DE_ASTR  	&kp RBKT    &kp DE_1    &kp DE_2    &kp DE_3			&kp DE_AT &kp UP &kp DE_EURO &kp DE_SS &kp LBKT 
 		&kp DE_SLSH    &kp FSLH    &kp DE_4      &kp DE_5     &kp DE_6 		&kp LEFT &kp DOWN  &kp RIGHT &kp DE_ODIA  &kp DE_ADIA 
 		&kp DE_EQL    &kp DE_0 		&kp DE_7  &kp DE_8  &kp DE_9 			&kp DE_LPRN &kp DE_RPRN &kp DE_QUES &kp DE_EXLM  &kp BSPC 
 					    &trans  &kp LSHIFT  					&kp RET &kp DEL 
